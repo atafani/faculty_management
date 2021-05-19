@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.kthehu_pas {
+    margin: 1em;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+    background-color: #339989;
+    border: 1px solid #339989;
+    padding: 0.3em 1em;
+    border-radius: 5px;
+    transition: background 0.5s;
+}
+.kthehu_pas:hover {
+    background-color: white;
+    color: #339989;
+}
+
+.fa-arrow-circle-left {
+    margin-right: 0.5em;
+}
+.studente {
+    margin: 2em;
+}
+
+.studente_tbl {
+    width: 100%;
+    border-collapse: collapse;
+}
+tr {
+    border-bottom: 1px solid #7de2d15e;
+}
+td ,th{
+    padding: 0.8em 0;
+    margin-left: 2em;
+}
+th {
+    text-align: left;
+}
+#gjenero_fjalekalim, #fshi_student {
+    border: 0;
+    background-color: transparent;
+    color: #131515;
+}
+
+#gjenero_fjalekalim:hover, #fshi_student:hover {
+    cursor: pointer;
+    color: #339989;
+}
+
+#shto_student_form {
+    width: 100%;
+    margin: 1em;
+}
+#shto_student_form input {
+    padding:0.3em 0.5em;
+    font-size: 1em;
+}
+#shto_std {
+    padding:0.3em 0.5em;
+    font-size: 1em;
+    background-color: transparent;
+    color: #131515;
+    border: 1px solid #131515;
+}
+#shto_std:hover{
+    cursor: pointer;
+    background-color: #131515;
+    color: white;
+}

@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #339989;
+    height: calc(100vh - 3em);
+}
+.fakulteti {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profili {
+    background-color: white;
+    border-top-right-radius: 4em;
+    border-bottom-right-radius: 4em;
+    padding: 3em 10em;
+    width: 80%;
+}
+.tedhena_personale {
+    width: 100%;
+    margin-bottom: 2em;
+}
+.tedhena_personale p{
+    margin: 0.5em 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 0.5em;
+    border-bottom: 0.1px solid #33998a1f;
+}
+
+button {
+    display: block;
+    padding: 0.5em 1em;
+    color: #339989;
+    background-color: white;
+    font-size: 1em;
+    border: 0;
+    outline: 0;
+    transition: background 0.5s, color 0.5s;
+}
+
+button:hover {
+    color: white;
+    background-color: #339989;
+    cursor: pointer;
+}
+.admin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 0.1px solid #33998a1f;
+}
+.admin form {
+    display: inline-block;
+}
+.admin:last-of-type{
+    margin-bottom: 2em;
+}
+button[type="submit"]{
+    background-color: transparent;
+    color: #2b2c28;
+}
+button[type="submit"]:hover{
+    color: #339989;
+}
+
+.active_btn {
+    color: white;
+    background-color: #339989;
+}
+
+.shto_admin_form, .ndrysho_fjalekalim_form {
+    margin: 1em 0;
+}
+input {
+    margin: 0.5em 0;
+    padding: 0.5em;
+    font-size: 1em;
+}
+input[type="submit"] {
+    background-color: #33469F;
+    color: white;
+    font-size: 1em;
+    border: 1px solid #33469F;
+    transition: background 0.5s;
+}
+input[type="submit"]:hover {
+    background-color: #02040f;
+    cursor: pointer;
+}
+

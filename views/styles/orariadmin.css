@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.dita {
+    background-color:  #7de2d123;
+    color: #339989;
+    font-size: 1.3em;
+    padding: 0.5em;
+    text-align: center;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    height: 100vh;
+    margin-bottom: 2em;
+}
+td, th {
+    border: 1px solid lightgrey;
+   
+}
+td{
+    height: 80px;
+}
+th {
+    padding: 0.8em;
+   
+}
+.no-border {
+    width: 1.3em;
+    vertical-align: top;
+    text-align: center;
+    padding: 0.2em;
+    font-weight: bold;
+    color: #02040f;
+}
+.leksion {
+    text-align: center;
+    background-color: #ffb600;
+    border-left: 4px solid #ff8500;
+    color: #02040f;
+}
+
+.seminar {
+    text-align: center;
+    background-color: #52b69a;
+    border-left: 3px solid #184e77;
+    color: #02040f;
+}
+
+
+
+button {
+    background-color: transparent;
+    border: 0;
+    color: #2b2c28;
+}
+button:hover {
+    color: #339989;
+    cursor: pointer;
+}
+
+
+/* ORARI USER */
+.papublikuar {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.papublikuar img {
+    height: 80vh;
+}
+.papublikuar p {
+    font-weight: bold;
+    color: #339989;
+}

@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.deget {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.dege {
+    margin: 2em;
+}
+.emer_dege {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    position: relative;
+    background-color: #339989;
+    color: white;
+    padding: 1em;
+    font-size: 1.2em;
+}
+
+input,select{
+    padding: 0.3em 0.8em;
+    margin-right: 1em;
+    font-size: 0.9em;
+    border: 1px solid #02040f;
+}
+input[type="submit"] {
+    padding: 0.3em 0.8em;
+    font-size: 1em;
+    border: 1px solid #02040f;
+    background-color: white;
+    transition: background 0.5s, color 0.5s;
+}
+input[type="submit"]:hover{
+    background-color:#02040f;
+    color: white;
+    cursor: pointer;
+}
+.lende_tbl {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2em 0;
+}
+.lende_tbl caption {
+    background-color:  #7de2d123;
+    color: #339989;
+    font-weight: bold;
+    padding: 0.3em;
+    margin: 1em 0;
+}
+tr {
+    border-bottom: 1px solid #7de2d15e;
+}
+td ,th{
+    padding: 0.8em 0;
+    margin-left: 2em;
+}
+th {
+    text-align: left;
+    color: #2b2c28;
+}
+
+#fshi_lende {
+    border: 0;
+    background-color: transparent;
+    color: #131515;
+}
+#fshi_lende:hover {
+    cursor: pointer;
+    color: #339989;
+}

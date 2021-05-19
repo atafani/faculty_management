@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.pedagoget {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.departament {
+   margin: 2em;
+}
+.emri_dep {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    position: relative;
+    background-color: #339989;
+    color: white;
+    padding: 1em;
+    font-size: 1.2em;
+}
+
+input{
+    padding: 0.3em 0.8em;
+    font-size: 0.9em;
+    border: 1px solid #02040f;
+}
+
+.pedagog_tbl {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+tr{
+    border-bottom: 1px solid #7de2d15e;
+}
+td ,th{
+    padding: 0.8em 0;
+    margin-left: 2em;
+}
+th {
+    text-align: left;
+}
+
+#gjenero_fjalekalim, #fshi_pedagog {
+    border: 0;
+    background-color: transparent;
+    color: #131515;
+}
+#gjenero_fjalekalim:hover, #fshi_pedagog:hover {
+    cursor: pointer;
+    color: #339989;
+}
+
+#shto_pedagog_form {
+    width: 100%;
+    margin: 1em 0;
+}
+
+#shto_pedagog, #shto_pedagoge {
+    padding:0.3em 0.5em;
+    font-size: 1em;
+    background-color: transparent;
+    color: #131515;
+    border: 1px solid #131515;
+    transition: background 0.5s, color 0.5s;
+}
+#shto_pedagog:hover, #shto_pedagoge:hover{
+    cursor: pointer;
+    background-color: #131515;
+    color: white;
+}

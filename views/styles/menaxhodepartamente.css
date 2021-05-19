@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.menaxho_departamentet {
+    padding: 4em 3em;
+}
+.title {
+    margin-bottom: 1em;
+    color: #02040f;
+}
+
+form{
+    margin: 1em 0;
+    display: flex;
+    flex-direction: row;
+    gap: 0.3em;
+}
+
+input{
+    padding: 0.4em;
+    border: 1px solid #13151557;
+}
+#shto_dep, #shto_dege {
+    background-color: white;
+    border: 1px solid #131515;
+    padding: 0.5em 0.8em;
+    transition: background 0.5s, color 0.5s;
+}
+#shto_dep:hover, #shto_dege:hover {
+    background-color: #131515;
+    color: white;
+    cursor: pointer;
+} 
+
+#fshi_dep {
+   background-color: transparent;
+   color: white;
+   border: 0;
+}
+#fshi_dege {
+    background-color: transparent;
+    border: 0;
+}
+button[type="submit"]:hover {
+    cursor: pointer;
+}
+select {
+    padding: 0.5em 1em;
+}
+
+.departamentet {
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+
+.emer_dep {
+    background-color: #339989;
+    color: white;
+    padding: 0 1em;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dege {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #7DE2D1;
+}
+.emer_dege {
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 376px ) {
+    
+    form{
+        margin: 1em 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.3em;
+    }
+    .emer_dep {
+        font-size: 0.8em;
+    }
+    .emer_dege {
+        font-size: 0.8em;
+    }
+    h2 {
+        font-size: 1.1em;
+    }
+}
